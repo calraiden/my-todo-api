@@ -3,8 +3,9 @@
 Instalacao de bibliotecas necessarias
 
 Instalando o composer com .phar
+
 ```sh
-$ php composer.phar update
+$ curl -sS https://getcomposer.org/installer | php
 ```
 
 Instalando o phpunit com .phar
@@ -18,9 +19,8 @@ $ phpunit --version
 
 Usando o arquivo do composer.json
 ```sh
-$ curl -sS https://getcomposer.org/installer | php
+$ php composer.phar update
 ```
-
 
 ou instalando individualmente
 ```sh
@@ -31,7 +31,7 @@ $ php composer.phar joshtronic/php-loremipsum
 
 ### Testes
 
-O TodoTest.php contem alguns testes básicos usando o phpunit
+O TodoTest.php contem alguns testes bÃ¡sicos usando o phpunit
 
 Importante ter instalado as bibliotecas acima via composer para os testes.
 
